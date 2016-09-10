@@ -1,0 +1,80 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "445519548349",
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ingrammicro.promos"
+        }
+    }
+}
