@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.ingrammicro.promos"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Promociones Ingram</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Promociones Ingram Micro México.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://www.whynot.mx" email="hola@whynot.mx">
+        Why Not Team
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -49,7 +49,7 @@
     <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
-
+    <plugin name="phonegap-plugin-push" spec="1.6.0">    <param name="SENDER_ID" value="445519548349" />
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
     <platform name="android">
@@ -144,7 +144,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*" />
+    <access origin="*" subdomains="true" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
@@ -167,5 +167,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
+    <engine name="android" spec="~4.1.1" />
 </widget>
