@@ -39,7 +39,12 @@ var app = {
     receivedEvent: function(id) {
     var push = PushNotification.init({
         android: {
-            senderID: "445519548349"
+            senderID: "445519548349",
+            icon:"icon",
+            iconColor:"#63113192",
+            vibrate:true,
+            forceShow:true,
+            sound:true
         },
         browser: {
             pushServiceURL: 'http://push.api.phonegap.com/v1/push'
