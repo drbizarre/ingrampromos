@@ -23,7 +23,7 @@
     <preference name="DisallowOverscroll"         value="true" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion"      value="14" />
-
+    <preference name="android-build-tool" value="gradle" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
 
@@ -49,7 +49,9 @@
     <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
-    <plugin name="phonegap-plugin-push" spec="1.6.0">    <param name="SENDER_ID" value="445519548349" /></plugin>
+    <plugin name="phonegap-plugin-push"               source="npm" spec="1.6.0">
+        <param name="SENDER_ID" value="445519548349" />
+    </plugin>
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
     <platform name="android">
