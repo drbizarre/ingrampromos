@@ -53,13 +53,13 @@ var push = PushNotification.init({
 });     
 
 push.on('registration', function(data) {
-    console.log(data);
+    //console.log(data);
 
     //alert(data);
 });
 
 push.on('notification', function(data) {
-    console.log(data.message);
+    //console.log(data.message);
     // data.message,
     // data.title,
     // data.count,
@@ -69,7 +69,7 @@ push.on('notification', function(data) {
 });
 
 push.on('error', function(e) {
-   console.log(e.message);
+   //console.log(e.message);
     // e.message
 });   
         $.getJSON( "http://digitalmediademos.com/promociones/api/promociones", function( data ) {
