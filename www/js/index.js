@@ -72,15 +72,8 @@ var app = {
             $.each( data.promociones, function( i, item ) {
                $("#promos").append(' <div class="card col s12">    <div class="card-image waves-effect waves-block waves-light">      <img class="activator" src="http://digitalmediademos.com/promociones/media/thumbs/'+item.foto+'">    </div>    <div class="card-content">      <span class="card-title activator grey-text text-darken-4">'+item.titulo+'<i class="material-icons right">more_vert</i></span>         </div>    <div class="card-reveal">      <span class="card-title grey-text text-darken-4">'+item.titulo+'<i class="material-icons right">close</i></span>      <p>Vigencia: '+item.start_date+' al '+ item.end_date+'</p> <p>'+item.descripcion+'</p>   </div>  </div>');
             });
-            //$("#cargando").hide();    
+            
         });           
-        /*var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);*/
     }
 };

@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ingrammicro.promos" version="1.0.0">
-  <name>ingrampromos</name>
+  <name>Promociones Ingram</name>
   <description>Promociones de Ingram Micro México</description>
   <author href="http://www.whynot.mx" email="oscar.quintero@whynot.mx">Why Not</author>
   <content src="index.html"/>
