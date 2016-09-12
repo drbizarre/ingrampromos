@@ -9,7 +9,7 @@
     <name>Promociones Ingram</name>
 
     <description>
-        Promociones Ingram Micro México.
+        Promociones Ingram Micro Mx.
     </description>
 
     <author href="http://www.whynot.mx" email="hola@whynot.mx">
@@ -56,12 +56,12 @@
     <icon src="icon.png" />
   
     <platform name="android">
-     <icon src="icons/android/drawable-ldpi-icon.png" platform="android" qualifier="ldpi" />
-<icon src="icons/android/drawable-mdpi-icon.png" platform="android" qualifier="mdpi" />
-<icon src="icons/android/drawable-hdpi-icon.png" platform="android" qualifier="hdpi" />
-<icon src="icons/android/drawable-xhdpi-icon.png" platform="android" qualifier="xhdpi" />
-<icon src="icons/android/drawable-xxhdpi-icon.png" platform="android" qualifier="xxhdpi" />
-<icon src="icons/android/drawable-fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />  
+        <icon src="www/icons/android/drawable-ldpi-icon.png" platform="android" qualifier="ldpi" />
+        <icon src="www/icons/android/drawable-mdpi-icon.png" platform="android" qualifier="mdpi" />
+        <icon src="www/icons/android/drawable-hdpi-icon.png" platform="android" qualifier="hdpi" />
+        <icon src="www/icons/android/drawable-xhdpi-icon.png" platform="android" qualifier="xhdpi" />
+        <icon src="www/icons/android/drawable-xxhdpi-icon.png" platform="android" qualifier="xxhdpi" />
+        <icon src="www/icons/android/drawable-fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />  
         <splash src="www/icons/android/drawable-land-ldpi-screen.png"      gap:density="land-ldpi" />
         <splash src="www/icons/android/drawable-land-mdpi-screen.png"      gap:density="land-mdpi" />
         <splash src="www/icons/android/drawable-land-hdpi-screen.png"      gap:density="land-hdpi" />
