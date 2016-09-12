@@ -53,26 +53,26 @@
         <param name="SENDER_ID" value="445519548349" />
     </plugin>
     <!-- Define app icon and splashscreen for each platform. -->
-    <icon src="icon.png" />
+    <icon src="www/icons/android/drawable-xxxhdpi-icon.png" />
     <platform name="android">
-        <icon   src="icons/android/drawable-ldpi-icon.png"               gap:density="ldpi" />
-        <icon   src="icons/android/drawable-mdpi-icon.png"               gap:density="mdpi" />
-        <icon   src="icons/android/drawable-hdpi-icon.png"               gap:density="hdpi" />
-        <icon   src="icons/android/drawable-xhdpi-icon.png"              gap:density="xhdpi" />
-        <icon   src="icons/android/drawable-xxhdpi-icon.png"             gap:density="xxhdpi" />
-        <icon   src="icons/android/drawable-xxxhdpi-icon.png"            gap:density="xxxhdpi" />
-        <splash src="icons/android/drawable-land-ldpi-screen.png"      gap:density="land-ldpi" />
-        <splash src="icons/android/drawable-land-mdpi-screen.png"      gap:density="land-mdpi" />
-        <splash src="icons/android/drawable-land-hdpi-screen.png"      gap:density="land-hdpi" />
-        <splash src="icons/android/drawable-land-xhdpi-screen.png"     gap:density="land-xhdpi" />
-        <splash src="icons/android/drawable-land-xxhdpi-screen.png"    gap:density="land-xxhdpi" />
-        <splash src="icons/android/drawable-land-xxxhdpi-screen.png"   gap:density="land-xxxhdpi" />
-        <splash src="icons/android/drawable-port-ldpi-screen.png"      gap:density="port-ldpi" />
-        <splash src="icons/android/drawable-port-mdpi-screen.png"      gap:density="port-mdpi" />
-        <splash src="icons/android/drawable-port-hdpi-screen.png"      gap:density="port-hdpi" />
-        <splash src="icons/android/drawable-port-xhdpi-screen.png"     gap:density="port-xhdpi" />
-        <splash src="icons/android/drawable-port-xxhdpi-screen.png"    gap:density="port-xxhdpi" />
-        <splash src="icons/android/drawable-port-xxxhdpi-screen.png"   gap:density="port-xxxhdpi" />
+        <icon   src="www/icons/android/drawable-ldpi-icon.png"               gap:density="ldpi" />
+        <icon   src="www/icons/android/drawable-mdpi-icon.png"               gap:density="mdpi" />
+        <icon   src="www/icons/android/drawable-hdpi-icon.png"               gap:density="hdpi" />
+        <icon   src="www/icons/android/drawable-xhdpi-icon.png"              gap:density="xhdpi" />
+        <icon   src="www/icons/android/drawable-xxhdpi-icon.png"             gap:density="xxhdpi" />
+        <icon   src="www/icons/android/drawable-xxxhdpi-icon.png"            gap:density="xxxhdpi" />
+        <splash src="www/icons/android/drawable-land-ldpi-screen.png"      gap:density="land-ldpi" />
+        <splash src="www/icons/android/drawable-land-mdpi-screen.png"      gap:density="land-mdpi" />
+        <splash src="www/icons/android/drawable-land-hdpi-screen.png"      gap:density="land-hdpi" />
+        <splash src="www/icons/android/drawable-land-xhdpi-screen.png"     gap:density="land-xhdpi" />
+        <splash src="www/icons/android/drawable-land-xxhdpi-screen.png"    gap:density="land-xxhdpi" />
+        <splash src="www/icons/android/drawable-land-xxxhdpi-screen.png"   gap:density="land-xxxhdpi" />
+        <splash src="www/icons/android/drawable-port-ldpi-screen.png"      gap:density="port-ldpi" />
+        <splash src="www/icons/android/drawable-port-mdpi-screen.png"      gap:density="port-mdpi" />
+        <splash src="www/icons/android/drawable-port-hdpi-screen.png"      gap:density="port-hdpi" />
+        <splash src="www/icons/android/drawable-port-xhdpi-screen.png"     gap:density="port-xhdpi" />
+        <splash src="www/icons/android/drawable-port-xxhdpi-screen.png"    gap:density="port-xxhdpi" />
+        <splash src="www/icons/android/drawable-port-xxxhdpi-screen.png"   gap:density="port-xxxhdpi" />
     </platform>
 
     <platform name="ios">
