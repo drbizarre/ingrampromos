@@ -54,7 +54,7 @@
     </plugin>
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
-  
+    <splash src="splash.png" />
     
 
     <!--
