@@ -37,6 +37,10 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+         navigator.splashscreen.show();
+       setTimeout(function() {
+            navigator.splashscreen.hide();
+}, 2000); 
     var push = PushNotification.init({
         android: {
             senderID: "445519548349",
