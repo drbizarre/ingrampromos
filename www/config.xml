@@ -54,9 +54,10 @@
     <plugin name="phonegap-plugin-push"               source="npm" spec="1.6.0">
         <param name="SENDER_ID" value="445519548349" />
     </plugin>
+     <gap:plugin name="cordova-plugin-spinnerdialog" source="npm" />
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
-    <splash src="splash.png" />
+    
     
 <platform name="android">
     <!-- you can use any density that exists in the Android project -->
