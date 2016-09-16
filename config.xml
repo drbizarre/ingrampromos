@@ -113,4 +113,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-firebase" spec="~0.1.12" />
+    <engine name="android" spec="~5.2.2" />
 </widget>

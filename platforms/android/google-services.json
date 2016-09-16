@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "445519548349",
+    "firebase_url": "https://promocionesingram.firebaseio.com",
+    "project_id": "promocionesingram",
+    "storage_bucket": "promocionesingram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445519548349:android:b2ffea6624c1ae53",
+        "android_client_info": {
+          "package_name": "com.ingrammicro.promos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445519548349-e49qjphq5lp6dnqrs2d4gfdecgllvoat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMEOKA3ghDZNEe6Q7NDgswrMmiXqwe5T8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
