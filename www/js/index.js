@@ -61,6 +61,7 @@ var app = {
         windows: {}
     });     
     push.on('registration', function(data) {
+        
         //alert("reg");
     });
     push.on('notification', function(data) {
@@ -77,12 +78,12 @@ var app = {
         //alert("error");
         // e.message
     });   
+
         $.getJSON( "http://digitalmediademos.com/promociones/api/promociones", function( data ) {
             $.each( data.promociones, function( i, item ) {
                $("#promos").append(' <div class="card col s12">    <div class="card-image waves-effect waves-block waves-light">      <img class="activator" src="http://digitalmediademos.com/promociones/media/thumbs/'+item.foto+'">    </div>    <div class="card-content">      <span class="card-title activator grey-text text-darken-4">'+item.titulo+'<i class="material-icons right">more_vert</i></span>         </div>    <div class="card-reveal">      <span class="card-title grey-text text-darken-4">'+item.titulo+'<i class="material-icons right">close</i></span>      <p>Vigencia: '+item.start_date+' al '+ item.end_date+'</p> <p>'+item.descripcion+'</p>   </div>  </div>');
             });
-            
+           
         });           
-
     }
 };
